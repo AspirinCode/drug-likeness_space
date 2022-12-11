@@ -13,7 +13,7 @@ RDKit==2020.09.10
 
 
 
-## Training
+## Training 
 
 ```python
 python -u  train_main.py --max_epochs 25
@@ -24,7 +24,7 @@ python -u  train_main.py --max_epochs 25
 novel compound generation please follow notebook:
 
 ```python
-python sampling.py --block_size=141 --vocab_size 114 --gen_size=3000
+python sampling.py --block_size=141 --vocab_size 114 --gen_size=5000
 ```
 
 ## Model Metrics
